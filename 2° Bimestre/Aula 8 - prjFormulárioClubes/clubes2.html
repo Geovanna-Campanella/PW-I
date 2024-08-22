@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Clubes</title>
+
+    <style>
+        h1 {
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-decoration: deeppink;
+        }
+
+        div {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: black;
+        }
+
+        img {
+            width: 150px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1> Formulário Clubes de Futebol Brasileiros </h1>
+    <hr>
+
+    <form>
+
+        <div>
+            <select id="tbSelecao" name="tbSelecao">
+                <option> São Paulo  </option>
+                <option> Corinthians </option>
+                <option> Palmeiras </option>
+                <option> Santos </option>
+                <option> Flamengo </option>
+                <option> Vasco </option>
+                <option> Outros </option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label> Paleta de cores do Time </label>
+            <br>
+            <input type="color" id="tbPaleta" name="tbPaleta">
+            <input type="color" id="tbPaleta" name="tbPaleta">
+            <input type="color" id="tbPaleta" name="tbPaleta">
+        </div>
+
+        <br>
+
+        <div>
+            <label> Escudo do Time : </label>
+            <br>
+            <input type="file" name="tbEscudo" id="tbEscudo">
+        </div>
+
+        <br>
+
+        <div>
+            <label> Títulos : </label>
+            <br> 
+            <input type="checkbox" id="ckTitulos"/> <span> Paulista  </span>
+            <input type="checkbox" id="ckTitulos"/> <span> Brasileiro  </span>
+            <input type="checkbox" id="ckTitulos"/> <span> Copa do Brasil  </span>
+            <input type="checkbox" id="ckTitulos"/> <span> Libertadores </span>
+            <input type="checkbox" id="ckTitulos"/> <span> Recopa </span>
+            <input type="checkbox" id="ckTitulos"/> <span> Mundial de Clubes </span>
+            <input type="checkbox" id="ckTitulos"/> <span> Nenhum </span>
+        </div>
+
+        <br>
+
+        <div>
+            <label> Hino do Clube : </label>
+            <br>
+            <textarea></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit" value="Enviar"/>
+        </div>
+
+        <br>
+
+        <div>
+            <img src="./img/Santa Taytay.jpg"/>
+        </div>
+
+    </form>
+
+</body>
+</html>

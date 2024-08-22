@@ -1,0 +1,172 @@
+body{
+    background: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0%;
+}
+
+header{
+    background:  rgb(82, 78, 143);
+}
+
+div.coluna11{
+    float:left;
+    width: 33.33%;
+    background:  rgb(51, 48, 95);
+    height: 75px;
+}
+
+div.coluna12{
+    float:left;
+    width: 33.33%;
+    background: rgb(51, 48, 95);
+    text-align: center;
+}
+
+div.coluna13{
+    float:left;
+    width: 33.33%;
+    background:  rgb(51, 48, 95);
+    height: 75px;
+}
+
+img.logo{
+    width: 25.5%
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 28px 24px;
+    text-decoration: none
+}
+
+.nav a:hover{
+    color:  white;
+    background-color:  rgb(138, 133, 204);
+}
+
+img.fundoCora{
+    position: relative;
+    background: fixed;
+    width: 95%;
+}
+
+img.Cora{
+    position: absolute;
+    width: 30%;
+    left: 300px;
+    top: 90px;
+}
+
+div.txtCora{
+    position: absolute;
+    color: #ffffff;
+    float: right;
+    bottom: 260px;
+    left: 600px;
+}
+
+img.fundoWybie{
+    position: relative;
+    background: fixed;
+    float: right;
+    width: 120%;
+}
+
+img.Wybie{
+    position: absolute;
+    float: right;
+    width: 20%;
+    left: 540px;
+    top: 750px;
+}
+
+div.txtWybie{
+    position: absolute;
+    text-align: right;
+    float: left;
+    color: #ffffff;
+    top: 800px;
+    left: 100px;
+}
+
+img.fundoMae{
+    position: relative;
+    background: fixed;
+    float: left;
+    width: 95%;
+    top: 40px;
+}
+
+img.Mae{
+    position: absolute;
+    width: 17%;
+    left: 475px;
+    top: 1210px;    
+}
+
+div.txtMae{
+    position: absolute;
+    text-align: left;
+    color: #ffffff;
+    top: 1310px;
+    left: 680px;
+}
+
+img.fundoOutraMae{
+    position: relative;
+    float: right;
+    width: 100%;
+    top: 130px;
+}
+
+img.outraMae{
+    position: absolute;
+    float: right;
+    width: 23%;
+    right: 470px;
+    top: 1875px;
+}
+
+div.txtOutraMae{
+    position: absolute;
+    text-align: right;
+    color: #ffffff;
+    top: 1960px;
+    right: 750px;
+}
+
+img.fundoGato{
+    position: relative;
+    width: 97%;
+    top: 150px;
+}
+
+img.Gato{
+    position: absolute;
+    width: 20%;
+    left: 440px;
+    top: 2550px
+}
+
+div.txtGato{
+    position: absolute;
+    text-align: left;
+    color: #ffffff;
+    top: 2620px;
+    left: 670px;
+}
+
+footer{
+    background:  rgb(51, 48, 95);
+    width: 100%;
+    height: 60px;   
+}
+
+.direitos{
+    text-align: center;
+    margin-top: 5px;
+    color:  rgb(197, 193, 240)
+}

@@ -1,0 +1,153 @@
+body {
+    background: #fff;
+}
+
+.planodefundo {
+    width: 100%;
+    border-radius: 60px;
+    position: relative;
+    display: block;
+}
+
+.logo {
+    position: absolute;
+    width: 150px;
+    bottom: 81%;
+    left: 7%;
+}
+
+.logoM{
+    width: 110%;
+}
+
+.texto1 {
+    position: absolute;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    bottom: 64%;
+    left: 7%;
+    margin-right: 25px;
+}
+
+.botão {
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    position: absolute;
+    bottom: 55%;
+    left: 7%;
+    background: #00ce63;
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+
+a.bt{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.botão:houver {
+    background: #039248;
+}
+
+.texto {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    bottom: 45%;
+    left: 70%;
+    margin-right: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Banner 2 */
+
+
+.titulo{
+    margin-left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner2{
+    background-color: rgb(230, 235, 240);
+    display: flow-root;
+    padding: 13px 0px;
+    border-radius: 15px;
+}
+
+.coluna1{
+    float: left;
+    width: 30%;
+    margin: 0px 75px;
+    position: relative;
+    display: block;
+}
+
+.img1{
+    border-radius: 15px;
+    width: 600px;
+    height: 350px;
+
+}
+
+.logoDisney{
+    width: 25%;
+    position: absolute;
+    border-radius: 7px;
+    bottom: 20px;
+    left: 15px;
+}
+
+.logoDisney:hover{
+    filter: blur(rgb(68, 68, 233));
+    filter: brightness(80%);
+    transition: 0.2s;
+}
+
+.conteudo1{
+    position: absolute;
+    bottom: 23px;
+    left: 140px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+}
+
+.coluna2{
+    float: left;
+    width: 30%;
+    margin: 0px 215px;
+    position: relative;
+    display: block;
+}
+
+.img2{
+    border-radius: 15px;
+    width: 600px;
+    height: 350px;
+}
+
+.logoMax{
+    width: 25%;
+    position: absolute;
+    border-radius: 7px;
+    bottom: 20px;
+    left: 15px;
+}
+
+.logoMax:hover{
+    filter: blur(rgb(68, 68, 233));
+    filter: brightness(80%);
+    transition: 0.2s;
+}
+
+.conteudo2{
+    position: absolute;
+    bottom: 23px;
+    left: 140px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+}
