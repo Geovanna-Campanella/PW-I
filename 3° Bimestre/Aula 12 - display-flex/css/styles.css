@@ -1,0 +1,97 @@
+body{
+    background: #fff;
+}
+
+header{
+    background: rgb(241, 241, 248);
+    height: 40px;
+    width: 1300px;
+    margin-left: 25px;
+}
+
+p.cabecalho{
+    color: rgb(8, 37, 117);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.container{
+    margin-left: 25px;
+    width: 1300px;
+    height: 400px;
+    background: rgb(241, 241, 248);
+    margin-bottom: 2px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.quadrado{
+    width: 265px;
+    height: 350px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 2px solid rgb(140, 159, 172);;
+}
+
+img.Estrelas{
+    width: 45%;
+    margin-left: 74px;
+    margin-top: 40px;
+}
+
+img.Mira{
+    width: 45%;
+    margin-left: 72px;
+    margin-top: 26px;
+}
+
+img.Capela{
+    width: 45%;
+    margin-left: 76px;
+    margin-top: 40px;
+}
+
+img.Papel{
+    width: 40%;
+    margin-left: 81px;
+    margin-top: 32px;
+}
+
+h3.titulos1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 29px;
+    color: rgb(8, 37, 117);
+}
+
+h3.titulos{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(8, 37, 117);
+}
+
+hr{
+    width: 80px;
+    border-style: solid;
+    color: rgb(149, 169, 182);
+}
+
+p.texto{
+    text-align: center;
+    margin: 2px 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 93%;
+    margin-top: 30px;
+    color: rgb(8, 37, 117);
+}
+
+
+
