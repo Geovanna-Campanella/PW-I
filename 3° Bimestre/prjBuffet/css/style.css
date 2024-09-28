@@ -1,0 +1,59 @@
+header {
+    background: white;
+    border-bottom: 1px solid;
+    margin: 0%;
+
+}
+
+section.banner{
+    background: #f9e3ff;
+}
+
+
+h1 {
+    color: #7d488d;
+    text-decoration: none;
+    font-size: 500%;
+}
+
+img.img2 {
+    border-radius: 23px;
+    width: 13%;
+    margin-top: 30px;
+    margin-left: 720px;
+}
+
+img.img3 {
+    border-radius: 23px;
+    width: 21%;
+    margin-bottom: 57px;
+    margin-left: 30px;
+}
+
+img.img1{
+    border-radius: 23px;
+    width: 22%;
+    margin-bottom: 78px;
+    margin-left: 680px;
+}
+
+img.img4{
+    border-radius: 23px;
+    width: 14%;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+img.img5{
+    border-radius: 23px;
+    width: 15%;
+    margin-bottom: 70px;
+    margin-left: 730px;
+}
+
+img.img6{
+    border-radius: 23px;
+    width: 18%;
+    margin-bottom: 80px;
+    margin-left: 30px;
+}
