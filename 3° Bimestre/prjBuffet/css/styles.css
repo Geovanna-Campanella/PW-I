@@ -1,3 +1,4 @@
+
 .cabecalho {
 	height: 80px;
 	background-color: #fff;
@@ -29,6 +30,7 @@ img {
 	font-weight: bolder;
 	font-size: 23px;
 	font-family:'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }
 
 .cabecalho .menu li a:hover {
@@ -56,7 +58,7 @@ h1.tituloBanner{
     text-align: left;
     margin-left: 83px;
     margin-top: 45px;
-    font-family: 'Playfair Display', Times, serif;
+    font-family: Times, serif;
 }
 
 div.descBanner {
@@ -66,6 +68,7 @@ div.descBanner {
     margin-top: -32px;
     color: #a87bc2;
     text-decoration: none;
+    font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .estrelaTexto1 {
@@ -170,7 +173,8 @@ div.botão {
     align-items: center;
     justify-content: center;
     font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    text-decoration: none;
+    font-size: 23px;
     width: 350px;
     height: 60px;
     right: 903px;
@@ -186,6 +190,7 @@ div h1.titulo{
     text-align: center;
     color: #4f4789;
     margin-bottom: 70px;
+    font-family: Times, serif;
 }
 
 div.divbigHouses{
@@ -329,7 +334,6 @@ div img.imgG4{
     left: 300px;
 }
 
-
 div.divPalace{
     background: #ddbdfa;
     width: 100%;
@@ -409,12 +413,13 @@ section.cardápio {
 }
 
 div.descCardápio h1 {
- 
-    font-family: 'Playfair Display', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Times, serif;
+    text-decoration: none;
     font-size: 45.4px;
     color: #7d488d;
     top: 10px;
     text-align: center;
+    font-weight: bold;
 }
 
 div.descCardápio p {
@@ -433,10 +438,11 @@ div.descCardápio img.linha {
 
 div.descCardápio h2 {
     font-size: 39.4px;
-    font-family: 'Playfair Display', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Times, serif;
     color: #766dc0;
     text-align: center;
     margin-top: 170px;
+    font-weight: bolder;
 }
 
 div.imagensCardápio {
@@ -472,7 +478,7 @@ div.descimagensCardápio .coquetel1 {
     position: absolute;
     top: 320px;
     left: 191px;
-    font-family: 'Playfair Display', Times, serif;
+    font-family: Times, serif;
     font-size: 37px;
     color: #766dc0;
     text-align: center;
@@ -482,7 +488,7 @@ div.descimagensCardápio .coquetel2 {
     position: absolute;
     top: 320px;
     left: 593px;
-    font-family: 'Playfair Display', Times, serif;
+    font-family: Times, serif;
     font-size: 37px;
     color: #766dc0;
     text-align: center;
@@ -492,7 +498,7 @@ div.descimagensCardápio .coquetel3 {
     position: absolute;
     top: 320px;
     left: 983px;
-    font-family: 'Playfair Display', Times, serif;
+    font-family: Times, serif;
     font-size: 37px;
     color: #766dc0;
     text-align: center;
@@ -502,7 +508,7 @@ div.descimagensCardápio .preço1 {
     position: absolute;
     top: 455px;
     left: 165px;
-    font-family: 'Playfair Display', Times, serif;
+    font-family: 'Questrial', Times, serif;
     font-size: 20px;
     color: #766dc0;
     text-align: center;
@@ -512,7 +518,7 @@ div.descimagensCardápio .preço2 {
     position: absolute;
     top: 455px;
     left: 570px;
-    font-family: 'Playfair Display', Times, serif;
+    font-family: 'Questrial', Times, serif;
     font-size: 20px;
     color: #766dc0;
     text-align: center;
@@ -522,7 +528,7 @@ div.descimagensCardápio .preço3 {
     position: absolute;
     top: 455px;
     left: 963px;
-    font-family: 'Playfair Display', Times, serif;
+    font-family: 'Questrial', Times, serif;
     font-size: 20px;
     color: #766dc0;
     text-align: center;
@@ -541,6 +547,7 @@ div.botõesimagensCardápio {
     align-items: center;
     justify-content: center;
     font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
     font-size: 20px;
     width: 250px;
     height: 40px;
@@ -557,6 +564,7 @@ div.botõesimagensCardápio {
     align-items: center;
     justify-content: center;
     font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
     font-size: 20px;
     width: 250px;
     height: 40px;
@@ -573,6 +581,7 @@ div.botõesimagensCardápio {
     align-items: center;
     justify-content: center;
     font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
     font-size: 20px;
     width: 250px;
     height: 40px;
