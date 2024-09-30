@@ -1,16 +1,56 @@
+.cabecalho {
+	height: 80px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 80px;
+	border-bottom: 1px solid #282828;
+}
+
+.cabecalho .logo {
+	display: flex;
+	gap: 30px;
+}
+
+img {
+    width: 100px;
+    padding-bottom: 8px;
+}
+
+.cabecalho .menu {
+	display: flex;
+	gap: 60px;
+}
+
+.cabecalho .menu li a {
+	padding: 30px;
+	color: #3e2447;
+	font-weight: bolder;
+	font-size: 23px;
+	font-family:'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.cabecalho .menu li a:hover {
+	border-bottom: 2px solid #3e2447; 
+}
+
 h1.titulo{
     font-size: 50px;
     text-align: left;
     color: #766dc0;
-    margin-left: 50px;
+    margin-left: 120px;
     margin-top: 60px;
 }
 
 section .desc {
-    font-size: 23px;
+    font-size: 21px;
     text-align: left;
     color: #3e2447;
-    margin-left: 50px;
+    margin-left: 120px;
+    font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -5px;
 }
 
 div.space{
@@ -52,10 +92,11 @@ div h1.tituloInfo{
 }
 
 div p.descInfo{
-    font-size: 25px;
+    font-size: 22px;
     text-align: left;
     color: #3e2447;
-   margin: 0px 45px;
+    margin: 0px 45px;
+    font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div.info2{
