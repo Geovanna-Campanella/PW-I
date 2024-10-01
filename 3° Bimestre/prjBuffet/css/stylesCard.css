@@ -162,7 +162,7 @@ footer.rodapé {
 p.comunicação {
     position: absolute;
     right: 80px;
-    margin-top: 0px;
+    margin-top: 32px;
     font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
     color: #3e2447;
     font-size: 17.5px;
@@ -170,7 +170,7 @@ p.comunicação {
 
 p.endereço {
     position: absolute;
-    top: 2975px;
+    top: 15px;
     left: 30px;
     font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
     color: #3e2447;
@@ -179,7 +179,7 @@ p.endereço {
 
 p.direitos {
     position: absolute;
-    top: 3025px;
+    top: 62px;
     left: 30px;
     font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
     color: #3e2447;
@@ -194,28 +194,28 @@ div.redesSociais {
 
 .instagram {
     position: absolute;
-    bottom: 12px;
+    bottom: -14px;
     right: 189px;
     width: 50px;
 }
 
 .x {
     position: absolute;
-    bottom: 15px;
+    bottom: -12px;
     right: 139px;
     width: 45px;
 }
 
 .whatsapp {
     position: absolute;
-    bottom: 15px;
+    bottom: -12px;
     right: 85px;
     width: 45px;
 }
 
 .youtube {
     position: absolute;
-    bottom: 15px;
+    bottom: -12px;
     right: 32px;
     width: 44px;
 } 
