@@ -1,0 +1,243 @@
+.cabecalho {
+	height: 80px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 80px;
+	border-bottom: 1px solid #282828;
+}
+
+.cabecalho .logo {
+	display: flex;
+	gap: 30px;
+}
+
+img {
+    width: 100px;
+    padding-bottom: 8px;
+}
+
+.cabecalho .menu {
+	display: flex;
+	gap: 65px;
+    margin-top: 15px;
+}
+
+.cabecalho .menu li a {
+	padding: 5px;
+	color: #3e2447;
+	font-weight: bolder;
+	font-size: 19px;
+	font-family:'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.cabecalho .menu li a:hover {
+	border-bottom: 2px solid #3e2447;
+}
+
+h1.titulo{
+    font-size: 50px;
+    text-align: left;
+    color: #766dc0;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+section .desc {
+    font-size: 21px;
+    text-align: left;
+    color: #3e2447;
+    margin-left: 120px;
+    font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -5px;
+}
+
+div.space{
+    height: 90px;
+}
+
+
+div.info1{
+    width: 100%;
+    height: 400px;
+    background: #d6a2ef;
+}
+
+div div.img{
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+div img.imgInfo{
+    width: 60%;
+    margin: 5px 120px;
+}
+
+div div.desc1{
+    width: 50%;
+    height: 400px;
+    float: left;
+    background: #e6c4f6;
+   
+}
+
+div h1.tituloInfo{
+    font-size: 45px;
+    text-align: left;
+    color: #362d80;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+div p.descInfo{
+    font-size: 22px;
+    text-align: left;
+    color: #3e2447;
+    margin: 0px 45px;
+    font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.info2{
+    width: 100%;
+    height: 400px;
+    background: #c2a2ef;
+}
+
+div div.desc2{
+    width: 50%;
+    height: 400px;
+    float: left;
+    background: #dcc9f6;
+}
+
+div.info3{
+    width: 100%;
+    height: 400px;
+    background: #e2a2ef;
+}
+
+div div.desc3{
+    width: 50%;
+    height: 400px;
+    float: left;
+    background: #eec9f6;
+}
+
+div.info4{
+    width: 100%;
+    height: 400px;
+    background: #d2aaf1;
+}
+
+div div.desc4{
+    width: 50%;
+    height: 400px;
+    float: left;
+    background: #e5cef7;
+}
+
+div.info5{
+    width: 100%;
+    height: 400px;
+    background: #efbaff;
+}
+
+div div.desc5{
+    width: 50%;
+    height: 400px;
+    float: left;
+    background: #f6d7ff;
+}
+
+div.botão {
+    position: relative;
+}
+
+.botão a {
+    position: absolute;
+    background-color: #8164bd;
+    border-radius: 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 23px;
+    width: 350px;
+    height: 60px;
+    left: 875px;
+    top: 70px;
+
+}
+
+footer.rodapé {
+    background-color: #f9e3ff;
+    position: relative;
+    top: 170px;
+    height: 130px;
+}
+
+p.comunicação {
+    position: absolute;
+    right: 80px;
+    margin-top: 32px;
+    font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3e2447;
+    font-size: 17.5px;
+}
+
+p.endereço {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3e2447;
+    font-size: 18.4px;
+}
+
+p.direitos {
+    position: absolute;
+    top: 62px;
+    left: 30px;
+    font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3e2447;
+    font-size: 18.4px;
+}
+
+div.redesSociais {
+    position: relative;
+    top: 110px;
+    right: 140px;
+}
+
+.instagram {
+    position: absolute;
+    bottom: -14px;
+    right: 189px;
+    width: 50px;
+}
+
+.x {
+    position: absolute;
+    bottom: -12px;
+    right: 139px;
+    width: 45px;
+}
+
+.whatsapp {
+    position: absolute;
+    bottom: -12px;
+    right: 85px;
+    width: 45px;
+}
+
+.youtube {
+    position: absolute;
+    bottom: -12px;
+    right: 32px;
+    width: 44px;
+} 
