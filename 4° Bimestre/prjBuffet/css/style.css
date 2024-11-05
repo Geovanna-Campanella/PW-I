@@ -116,25 +116,24 @@ img {
 } 
 
 div.galeriaP{
-    gap: 0%;
     display: flex;
     flex-direction: row;
     justify-content: left;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-left: 13%;
-	margin-bottom: -2%;
+    margin-left: 6%;
+    margin-bottom: -2%;
 }
 
 div.galeria {
     margin: 5%;
     border: 1px solid #8f3521 ;
     float: left;
-    width: 18%;
+    width: 21%;
     border-radius: 17px;
     background: rgb(255, 243, 218);
     position: relative;
-    height: 350px;
+    height: 360px;
 }
 
 div.galeria img {
