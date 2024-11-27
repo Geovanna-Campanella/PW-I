@@ -1,0 +1,344 @@
+@media (max-width: 412px) {
+    body {
+        background-color: #f4efc9;
+        margin: 0%;
+    }
+
+    header.cabecalho {
+        width: 63%;
+        height: 200px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #282828;
+    }
+    
+    header.cabecalho .logo {
+        display: flex;
+        gap: 5px;
+    }
+    
+    .logo img {
+        width: 150px;
+        margin-left: 40%;
+        margin-top: -35%;
+    }
+    
+    header.cabecalho ul.menu {
+        display: flex;
+        gap: 10px;
+        margin-top: 25%;
+        text-decoration: none;
+        list-style: none;
+        margin-left: -60%;
+    }
+    
+    header.cabecalho ul.menu li a {
+        padding: 5px;
+        color: #8f3521;
+        font-size: 2.8ch;
+        font-family:'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+    }
+    
+    header.cabecalho ul.menu li a:hover {
+        border-bottom: 2px solid #6d2515;
+    }
+
+    div.divBanner{
+        background: black;
+        height: 74ch;
+        position: relative;
+    }
+    
+    .imgPrincipal {
+        width: 190%;
+        height: 74ch;
+        opacity: 50%;
+        margin-left: -88%;
+    }
+    
+    h1.TBanner{
+        position: absolute;
+        top: 13%;
+        left: 0%;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #e4b995;
+        text-align: center;
+    }
+    
+    p.PBanner{
+        position: absolute;
+        top: 35%;
+        left: 11%;
+        text-align: center;
+        font-size: 21px;
+        color: #f1dbd4;
+        font-family: sans-serif;
+        width: 80%;
+    }
+
+    .botãoBanner {
+        position: absolute;
+        background-color: #c79c7f;
+        border-radius: 25px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        width: 60%;
+        height: 4.3ch;
+        left: 21%;
+        top: 68%;
+        text-decoration: none;
+    }
+
+    .descCardapio p{
+        margin-left: 2.9ch;
+        font-size: 22px;
+        color: #472d24;
+        font-family: sans-serif;
+    }
+    
+    .descCardapio h3{
+        font-size: 32px;
+        font-family: Questrial, Geneva, Tahoma, sans-serif;
+        color: #8f3521;
+        margin-left: 1.7ch;
+        margin-top: -1ch;
+        margin-bottom: 5%;
+    } 
+
+    div.galeriaP{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-left: 17%;
+        margin-bottom: -2%;
+    }
+    
+    div.galeria {
+        margin: 5%;
+        border: 1px solid #8f3521 ;
+        float: left;
+        width: 70%;
+        border-radius: 17px;
+        background: rgb(255, 243, 218);
+        position: relative;
+        height: 380px;
+    }
+
+    div.galeria img {
+        border-radius: 17px;
+        width: 100%;
+    }
+    
+    div.desc h3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        text-align: center;
+        color: #8f3521;
+        margin-left: 0%;
+        margin-top: -0.11111111111111111111111ch;
+    }
+    
+    div.desc p{
+        font-family: sans-serif;
+        font-size: 19px;
+        text-align: center;
+        color:#472d24;
+        margin-left: 0%;
+        margin-top: -1.5ch;
+    }
+
+    div.desc a{
+        position: absolute;
+        background-color: #8f3521;
+        border-radius: 25px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        width: 72%;
+        height: 41px;
+        top: 83%;
+        left: 14%;
+        text-decoration: none;
+    }
+
+    .locais {
+        height: 195ch;
+        background-color: #e8b27f;
+        margin-top: 4%;
+    }
+    
+    .titulo1 {
+        margin-top: 6ch;
+        margin-left: 2.9ch;
+        font-size: 22px;
+        color: #472d24;
+        font-family: sans-serif;
+    }
+
+    .tituloEspaço {
+        font-size: 32px;
+        font-family: Questrial, Geneva, Tahoma, sans-serif;
+        color: #8f3521;
+        margin-left: 1.7ch;
+        margin-top: -1ch;
+        margin-bottom: -1.5%;
+    }
+
+    .bigHouses img {
+        border-radius: 24px;
+        margin-left: 7%;
+        margin-top: 5%;
+        width: 85%;
+    }
+    
+    .tituloBigHouse {
+        font-size: 35px;
+        color: #472d24;
+        margin-left: 10%;
+        margin-top: 0%;
+        margin-bottom: -2%;
+        margin-bottom: -1.5%;
+    }
+    
+    .descBigHouse {
+        margin-left: 10%;
+        font-size: 22px;
+        font-family: Questrial, Geneva, Tahoma, sans-serif;
+        width: 80%;
+    }
+
+    .gardens img {
+        border-radius: 24px;
+        margin-left: 7%;
+        margin-top: 7%;
+        width: 85%;
+    }
+    
+    .tituloGardens {
+        font-size: 35px;
+        color: #472d24;
+        margin-left: 10%;
+        margin-top: 0%;
+        margin-bottom: -1.5%;
+    }
+    
+    .descGardens {
+        margin-left: 10%;
+        font-size: 22px;
+        font-family: Questrial, Geneva, Tahoma, sans-serif;
+        width: 80%;
+    }
+
+    .palaces img {
+        border-radius: 24px;
+        margin-left: 7%;
+        margin-top: 4%;
+        width: 85%;
+    }
+    
+    .tituloPalaces {
+        font-size: 35px;
+        color: #472d24;
+        margin-left: 10%;
+        margin-top: 0%;
+        margin-bottom: -1.5%;
+    }
+    
+    .descPalaces {
+        margin-left: 10%;
+        font-size: 22px;
+        font-family: Questrial, Geneva, Tahoma, sans-serif;
+        width: 80%;
+    }
+
+    section.avaliações {
+        background-color: #f4efc9;
+        position: relative;
+        margin-top: 2%;
+    }
+    
+    div.tiago{
+        background-color: #fffbdf;
+        width: 85%;
+        position: absolute;
+        left: 7.2%;
+        border-radius: 3%;
+    }
+    
+    div.sabrina{
+        background-color: #fffbdf;
+        width: 85%;
+        position: absolute;
+        left: 7.2%;
+        top: 1700%;
+        border-radius: 3%;
+    }
+    
+    section.avaliações h3{
+        font-size: 20px;
+        font-family: Questrial, Geneva, Tahoma, sans-serif;
+        color: #8f3521;
+        text-align: right;
+        margin-right: 4%;
+        margin-bottom: 2%;
+    }
+    
+    section.avaliações h4{
+        font-size: 20px;
+        font-family: Questrial, Geneva, Tahoma, sans-serif;
+        color: #8f3521;
+        text-align: right;
+        margin-right: 4%;
+        margin-top: 0%;
+    }
+    
+    section.avaliações p{
+        margin-top: 5%;
+        font-size: 18px;
+        color: #472d24;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+
+    footer.rodape {
+        background-color: #fffef4;
+        margin-top: 140%;
+        height: 150px;
+        border-top: 1px solid #282828;
+    }
+    
+    p.endereço {
+        text-align: center;
+        width: 80%;
+        margin-top: 1%;
+        margin-left: 10%;
+        color: 	#8f3521;
+        font-family: sans-serif;
+        font-size: 18px;
+    }
+    
+    p.direitos {
+        text-align: center;
+        width: 80%;
+        margin-top: 2%;
+        margin-left: 11%;
+        color: #8f3521;
+        font-family: sans-serif;
+        font-size: 18px;
+    }
+
+}
